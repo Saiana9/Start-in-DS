@@ -98,8 +98,7 @@ def fib(n):
 def fib(n):
     if n < 2:
         return n
-    return fib(n-2) + fib(n-1)
-fib(5) 
+    return fib(n-2) + fib(n-1) 
 
 
 @memo
@@ -116,8 +115,6 @@ def fib(n):
     if n < 2:
         return n
     return fib(n-2) + fib(n-1)
-
-fib(5)
 
 
 # Время выполнения рекурсивной реализации расчета чисел Фибоначчи без декоратора больше чем с ним
